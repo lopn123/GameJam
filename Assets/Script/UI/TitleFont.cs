@@ -29,6 +29,6 @@ public class TitleFont : MonoBehaviour
     }
     public void LoadScene()
     {
-        SceneManager.LoadScene("InGame");
+        SceneManager.LoadScene("stage01");
     }
 }

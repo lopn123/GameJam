@@ -14,6 +14,7 @@ public class Move_Ball : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(P_Ball.gameObject != null)
         b_pos = P_Ball.transform.position;
     }
 
